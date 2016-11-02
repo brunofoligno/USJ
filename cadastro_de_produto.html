@@ -1,0 +1,116 @@
+<html>
+
+  <head>
+       <title> Comércio </title>
+       <meta charset="UTF-8"/> 
+       <style type="text/css">
+	      body{background-color:##eeeeee}
+		  input{background-color:#fffff7}
+		  textarea {background-color:#fffff7}
+		  
+		  #area {position:relative;
+                left:10%;
+                top:29%;
+                width:1180px;
+                height:570px;}
+		  	
+		  #area #formulario
+                {position:absolute;
+                 display:block;}
+          fieldset
+                {
+                 width:700px;
+                 height:350px;}
+				 
+				 #formulario label
+                          {
+                           position:absolute;
+                           left:19px;
+                           margin-right:5px;
+						   margin-top:10px;  }
+						   #formulario input.nome
+                                     {
+                                      position:absolute;
+                                      left:95px;
+                                      top:23px;
+                                      width:225px;}
+		  							 					  
+				 #formulario input.nome
+                                     {
+                                      position:absolute;
+                                      left:95px;
+                                      top:23px;
+                                      width:525px;}
+		  							  
+		         #formulario input.codigo
+                                     {
+                                      position:absolute;
+                                      left:95px;
+                                      margin-top:10px;
+                                      width:225px;}	
+                 
+				 #formulario input.valor
+                                     {
+                                      position:absolute;
+                                      left:95px;
+                                      margin-top:10px;
+                                      width:225px;}	
+
+                 #formulario textarea
+                                     {
+                                      position:absolute;
+                                      left:95px;
+                                      margin-top:10px;
+                                      width:225px;}	
+									  
+		         #formulario input.btn_submit
+                                     {
+                                      position:absolute;
+                                      left:210px;
+                                      margin-top:80px;
+                                      width:100px;}	
+      
+                 #formulario input.btn_submit_salvar
+                                     {
+                                      position:absolute;
+                                      left:95px;
+                                      margin-top:80px;
+                                      width:100px;}		 									  
+		
+		</style>  
+  
+  </head>
+
+  <body>
+     
+	 
+	 <p><h1><center>Cadastrar produto</center></h1></p>
+	 
+	 <br/><br/><br/><br/>
+	 
+	 <div id="area">
+	 <form id="formulario" autocomplete="off">
+	  <fieldset>
+	   
+	   <label>Nome:</label> <input class="nome" type="nome"/> 
+	   <br/><br/>
+	   <label>código </label> <input class="codigo" type="codigo"/>
+	   <br/><br/>
+	   <label>Valor: </label> <input class="valor" type="valor"/>
+	   <br/><br/>
+	   Descrição: <br/>
+	   
+	   <textarea cols="50" rows="5"></textarea>
+	   <br/><br/>
+	   
+	   <input class="btn_submit_salvar" type="submit" value="Salvar"> <input class="btn_submit" type="submit" value="Apagar">
+	   
+	  </fieldset>
+	 </form>
+	 </div>
+	 
+	 
+	 
+  </body>
+
+</html>
